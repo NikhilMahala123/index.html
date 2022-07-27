@@ -1,0 +1,100 @@
+
+
+
+@font-face {
+    font-family: proxima NovaBlack;
+    src: url(Black.otf);
+}
+@font-face {
+    font-family: Proxima Novabold;
+    src: url(Bold.otf);
+
+}
+@font-face {
+    font-family: Proxima NvaExtrabold;
+    src: url(ExtraBold.otf);
+}
+@font-face {
+    font-family: proxima NovaRegular;
+    src: url(Regular.otf);
+}
+.font {
+    font-family: Proxima NvaExtrabold;
+    font-size: 18px;
+}
+.A1 {
+    font-family: 
+    font-family: proxima NovaRegular;
+    font-size: 18px; 
+}
+
+.why {
+    font-family: proxima NovaBlack; ;
+    font-size: 48px ;
+}
+.container {
+    display: grid;
+    grid-template-columns:50% 50% ;
+}
+.sec1 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.left {
+
+    padding-top: 50%;
+    padding-left: 25%;
+}
+
+.right {
+
+
+    padding-top: 50%;
+    padding-left: 25%;
+}
+
+.sec2 {
+
+    padding-left: 20% ;
+    padding-top : 35%;
+    font-size: 250%;
+    background-image: url(ss_png/i3.png);
+    background-size: 12%;
+    background-repeat: no-repeat;
+    background-position-x: 19%;
+    background-position-y: 67%;
+  }
+    
+.sec3{
+    color: #3787C8;
+    font-size: 30%;
+}
+
+.outline {
+        color: #fff;
+        text-shadow: #000 0px 0px 1px;
+        -webkit-font-smoothing: antialiased;
+        font-size: 48px;
+        margin-top: auto;
+        font-family: proxima NovaBlack;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
