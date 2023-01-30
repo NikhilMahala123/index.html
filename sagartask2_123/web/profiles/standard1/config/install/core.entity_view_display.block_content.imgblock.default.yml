@@ -1,0 +1,25 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.imgblock
+    - field.field.block_content.imgblock.field_image
+  module:
+    - image
+id: block_content.imgblock.default
+targetEntityType: block_content
+bundle: imgblock
+mode: default
+content:
+  field_image:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden: {  }

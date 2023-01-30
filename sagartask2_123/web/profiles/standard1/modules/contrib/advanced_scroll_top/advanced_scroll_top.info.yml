@@ -1,0 +1,11 @@
+name: Advanced Scroll to Top
+type: module
+description: This module provides customizable scroll to top functionality.
+core: 8.x
+core_version_requirement: ^8 || ^9
+package: media
+
+# Information added by Drupal.org packaging script on 2020-05-18
+version: '1.0.1'
+project: 'advanced_scroll_top'
+datestamp: 1589833747

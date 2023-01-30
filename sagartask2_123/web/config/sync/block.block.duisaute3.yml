@@ -1,0 +1,25 @@
+uuid: 55008844-1f9a-48e0-8cb6-ba535cac70d3
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:about_us_down:568fbb45-e49c-4f9b-a946-e00c8c9e9073'
+  module:
+    - block_content
+  theme:
+    - my_theme
+id: duisaute3
+theme: my_theme
+region: content_5_duis
+weight: 0
+provider: null
+plugin: 'block_content:568fbb45-e49c-4f9b-a946-e00c8c9e9073'
+settings:
+  id: 'block_content:568fbb45-e49c-4f9b-a946-e00c8c9e9073'
+  label: 'duis aute 3'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

@@ -1,0 +1,66 @@
+name: Standard1
+type: profile
+description: 'Install with commonly used features pre-configured.'
+core_version_requirement: ^8 || ^9
+
+install:
+  - addtoany
+  - automated_cron
+  - big_pipe
+  - block
+  - block_content
+  - breakpoint
+  - ckeditor
+  - comment
+  - config
+  - contact
+  - datetime
+  - dblog
+  - dynamic_page_cache
+  - editor
+  - field
+  - field_ui
+  - file
+  - filter
+  - fontawesome
+  - help
+  - history
+  - image
+  - link
+  - linkicon
+  - menu_link_content
+  - menu_ui
+  - mysql
+  - node
+  - options
+  - page_cache
+  - path
+  - path_alias
+  - rdf
+  - search
+  - shortcut
+  - superfish
+  - system
+  - taxonomy
+  - telephone
+  - text
+  - token
+  - toolbar
+  - tour
+  - update
+  - user
+  - views_add_button
+  - views_ui
+  - views
+  
+
+dependencies:
+ - node
+ - views
+ - block
+
+themes:
+  - olivero
+  - claro
+  - my_theme
+  - stable9

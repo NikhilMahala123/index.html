@@ -1,0 +1,122 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.bio.field_bioimage
+    - field.field.node.bio.field_designation
+    - field.field.node.bio.field_fb
+    - field.field.node.bio.field_insta
+    - field.field.node.bio.field_linkdin
+    - field.field.node.bio.field_namebio
+    - field.field.node.bio.field_twiter
+    - image.style.thumbnail
+    - node.type.bio
+  module:
+    - fontawesome
+    - image
+    - path
+id: node.bio.default
+targetEntityType: node
+bundle: bio
+mode: default
+content:
+  created:
+    type: datetime_timestamp
+    weight: 10
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_bioimage:
+    type: image_image
+    weight: 122
+    region: content
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+  field_designation:
+    type: string_textfield
+    weight: 124
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_fb:
+    type: fontawesome_icon_widget
+    weight: 128
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_insta:
+    type: fontawesome_icon_widget
+    weight: 130
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_linkdin:
+    type: fontawesome_icon_widget
+    weight: 131
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_namebio:
+    type: string_textfield
+    weight: 132
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_twiter:
+    type: fontawesome_icon_widget
+    weight: 129
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 30
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  promote:
+    type: boolean_checkbox
+    weight: 15
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    weight: 120
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  sticky:
+    type: boolean_checkbox
+    weight: 16
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  uid:
+    type: entity_reference_autocomplete
+    weight: 5
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

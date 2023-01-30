@@ -1,0 +1,24 @@
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:basic:2058393c-7341-47cd-a81f-3d57da14e61b'
+  module:
+    - block_content
+  theme:
+    - my_theme
+id: gallery
+theme: my_theme
+region: content_12_gallery
+weight: -13
+provider: null
+plugin: 'block_content:2058393c-7341-47cd-a81f-3d57da14e61b'
+settings:
+  id: 'block_content:2058393c-7341-47cd-a81f-3d57da14e61b'
+  label: Gallery
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

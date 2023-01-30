@@ -1,0 +1,24 @@
+uuid: 8dcd147c-1c20-47de-812a-368687557280
+langcode: en
+status: false
+dependencies:
+  config:
+    - views.view.paragraph_faqs
+  module:
+    - views
+  theme:
+    - my_theme
+id: views_block__paragraph_faqs_block_faqs
+theme: my_theme
+region: content_10_faq
+weight: 0
+provider: null
+plugin: 'views_block:paragraph_faqs-block_faqs'
+settings:
+  id: 'views_block:paragraph_faqs-block_faqs'
+  label: ''
+  label_display: '0'
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility: {  }

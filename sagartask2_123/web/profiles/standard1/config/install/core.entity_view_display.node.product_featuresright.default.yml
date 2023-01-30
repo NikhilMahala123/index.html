@@ -1,0 +1,43 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.product_featuresright.body
+    - field.field.node.product_featuresright.field_product
+    - field.field.node.product_featuresright.field_producttitle
+    - node.type.product_featuresright
+  module:
+    - fontawesome
+    - text
+    - user
+id: node.product_featuresright.default
+targetEntityType: node
+bundle: product_featuresright
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_product:
+    type: fontawesome_icon_formatter
+    label: hidden
+    settings:
+      layers: false
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_producttitle:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden:
+  addtoany: true
+  links: true

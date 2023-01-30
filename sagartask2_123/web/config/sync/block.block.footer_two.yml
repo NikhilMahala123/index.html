@@ -1,0 +1,25 @@
+uuid: 52b3c63e-f73b-48c2-97d4-ddb7f4c7d12f
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:footer_2:e5d5fc14-c35a-45c9-8c35-b2d97dfc68ae'
+  module:
+    - block_content
+  theme:
+    - my_theme
+id: footer_two
+theme: my_theme
+region: footer_first
+weight: -18
+provider: null
+plugin: 'block_content:e5d5fc14-c35a-45c9-8c35-b2d97dfc68ae'
+settings:
+  id: 'block_content:e5d5fc14-c35a-45c9-8c35-b2d97dfc68ae'
+  label: 'footer 2'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

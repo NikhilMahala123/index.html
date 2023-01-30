@@ -1,0 +1,20 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.about_us_down
+    - field.storage.block_content.field_icon1
+  module:
+    - fontawesome
+id: block_content.about_us_down.field_icon1
+field_name: field_icon1
+entity_type: block_content
+bundle: about_us_down
+label: icon1
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: fontawesome_icon

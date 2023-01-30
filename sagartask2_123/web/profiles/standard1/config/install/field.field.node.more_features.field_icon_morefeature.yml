@@ -1,0 +1,20 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_icon_morefeature
+    - node.type.more_features
+  module:
+    - fontawesome
+id: node.more_features.field_icon_morefeature
+field_name: field_icon_morefeature
+entity_type: node
+bundle: more_features
+label: 'icon morefeature'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: fontawesome_icon

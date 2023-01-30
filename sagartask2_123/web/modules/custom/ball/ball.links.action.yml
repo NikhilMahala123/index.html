@@ -1,0 +1,10 @@
+entity.ball_entity.add_form:
+  route_name: entity.ball_entity.add_page
+  title: 'Add Ball entity'
+  appears_on:
+    - entity.ball_entity.collection
+entity.ball_entity_type.add_form:
+  route_name: entity.ball_entity_type.add_form
+  title: 'Add Ball entity type'
+  appears_on:
+    - entity.ball_entity_type.collection

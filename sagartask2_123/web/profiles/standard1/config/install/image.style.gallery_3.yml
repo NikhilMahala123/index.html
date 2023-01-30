@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies: {  }
+name: gallery_3
+label: 'gallery 3'
+effects:
+  d4171963-b1ee-48ec-99ee-778f717ba15c:
+    uuid: d4171963-b1ee-48ec-99ee-778f717ba15c
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 600
+      height: 452
+      anchor: center-center
+  a9b391ce-84ca-404e-9155-9aeba5d2a00e:
+    uuid: a9b391ce-84ca-404e-9155-9aeba5d2a00e
+    id: image_scale_and_crop
+    weight: 2
+    data:
+      width: 595
+      height: 450
+      anchor: center-center

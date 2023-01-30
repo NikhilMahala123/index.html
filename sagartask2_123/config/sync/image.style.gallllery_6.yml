@@ -1,0 +1,15 @@
+uuid: abaa966f-42ac-4073-a1c0-841a0dfc85e6
+langcode: en
+status: true
+dependencies: {  }
+name: gallllery_6
+label: 'gallllery 6'
+effects:
+  0d531d11-e776-4e82-8217-40fc1004fd27:
+    uuid: 0d531d11-e776-4e82-8217-40fc1004fd27
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 530
+      height: 460
+      anchor: center-center

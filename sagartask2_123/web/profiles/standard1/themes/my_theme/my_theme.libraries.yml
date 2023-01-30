@@ -1,0 +1,19 @@
+global-css:
+  version: Version
+  css: 
+    theme:
+      css/styles.css: {}
+      css/animate.css: {}
+  js:
+    js/wow.min.js: { minified: true }
+    js/myjs.js: {}
+    //cdnjs.cloudflare.com/ajax/libs/wow/0.1.12/wow.min.js: { minified: true }
+    js/faq.js: {}
+    js/footer.js: {}
+    js/menu.js: {}
+
+# global-scripting:
+#   version: Version
+#     css:
+#       theme:
+#         js/script.js: {}

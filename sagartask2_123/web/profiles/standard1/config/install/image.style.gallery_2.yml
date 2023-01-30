@@ -1,0 +1,14 @@
+langcode: en
+status: true
+dependencies: {  }
+name: gallery_2
+label: 'gallery 2'
+effects:
+  12f7ee76-1fd9-4803-862c-fb207caf7542:
+    uuid: 12f7ee76-1fd9-4803-862c-fb207caf7542
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 605
+      height: 452
+      anchor: center-center

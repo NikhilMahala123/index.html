@@ -1,0 +1,17 @@
+
+# Ball entity menu items definition
+entity.ball_entity.collection:
+  title: 'Ball entity list'
+  route_name: entity.ball_entity.collection
+  description: 'List Ball entity entities'
+  parent: system.admin_structure
+  weight: 100
+
+
+# Ball entity type menu items definition
+entity.ball_entity_type.collection:
+  title: 'Ball entity type'
+  route_name: entity.ball_entity_type.collection
+  description: 'List Ball entity type (bundles)'
+  parent: system.admin_structure
+  weight: 99

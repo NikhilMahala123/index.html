@@ -1,0 +1,13 @@
+{
+    "name": "ball",
+    "type": "drupal-module",
+    "description": "my awesome module",
+    "keywords": [
+    ],
+    "homepage": "https://www.drupal.org/project/ball",
+    "minimum-stability": "dev",
+    "support": {
+        "issues": "https://www.drupal.org/project/issues/ball",
+        "source": "http://cgit.drupalcode.org/ball",
+    },
+}

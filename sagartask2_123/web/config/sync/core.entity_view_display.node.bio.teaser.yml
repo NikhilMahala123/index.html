@@ -1,0 +1,53 @@
+uuid: 0e77f891-6bdf-4a7c-9b07-f4ed98f5d054
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.bio.field_bioimage
+    - field.field.node.bio.field_designation
+    - field.field.node.bio.field_fb
+    - field.field.node.bio.field_insta
+    - field.field.node.bio.field_linkdin
+    - field.field.node.bio.field_namebio
+    - field.field.node.bio.field_twiter
+    - node.type.bio
+  module:
+    - image
+    - user
+id: node.bio.teaser
+targetEntityType: node
+bundle: bio
+mode: teaser
+content:
+  addtoany:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_bioimage:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_designation:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 2
+    region: content
+hidden:
+  field_fb: true
+  field_insta: true
+  field_linkdin: true
+  field_namebio: true
+  field_twiter: true
+  links: true

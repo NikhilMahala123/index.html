@@ -1,0 +1,25 @@
+uuid: 4f24300f-0ad3-4a14-a92a-a7d9652e44e4
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:header_block:f46f86c8-5e21-4460-a2a4-a6d781990224'
+  module:
+    - block_content
+  theme:
+    - my_theme
+id: calltoaction
+theme: my_theme
+region: content_6_callaction
+weight: 0
+provider: null
+plugin: 'block_content:f46f86c8-5e21-4460-a2a4-a6d781990224'
+settings:
+  id: 'block_content:f46f86c8-5e21-4460-a2a4-a6d781990224'
+  label: 'Call To Action'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

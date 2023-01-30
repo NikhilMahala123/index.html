@@ -1,0 +1,78 @@
+uuid: 2d83fffa-32b7-4b0c-a5eb-b123dfc20033
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.footer_2
+    - field.field.block_content.footer_2.field_email
+    - field.field.block_content.footer_2.field_mail
+    - field.field.block_content.footer_2.field_phone
+    - field.field.block_content.footer_2.field_phone_icon
+    - field.field.block_content.footer_2.field_position
+    - field.field.block_content.footer_2.field_position_text
+    - field.field.block_content.footer_2.field_titlefooter2
+  module:
+    - fontawesome
+    - telephone
+id: block_content.footer_2.default
+targetEntityType: block_content
+bundle: footer_2
+mode: default
+content:
+  field_email:
+    type: basic_string
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_mail:
+    type: fontawesome_icon_formatter
+    label: hidden
+    settings:
+      layers: false
+    third_party_settings: {  }
+    weight: 5
+    region: content
+  field_phone:
+    type: telephone_link
+    label: hidden
+    settings:
+      title: ''
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_phone_icon:
+    type: fontawesome_icon_formatter
+    label: hidden
+    settings:
+      layers: false
+    third_party_settings: {  }
+    weight: 6
+    region: content
+  field_position:
+    type: fontawesome_icon_formatter
+    label: hidden
+    settings:
+      layers: false
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  field_position_text:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_titlefooter2:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 7
+    region: content
+hidden:
+  addtoany: true

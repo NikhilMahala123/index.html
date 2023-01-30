@@ -1,0 +1,19 @@
+uuid: 8a9f8a1a-39ac-4f1f-afb5-5a3ce93a7ddc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_titlee
+    - node.type.more_features
+id: node.more_features.field_titlee
+field_name: field_titlee
+entity_type: node
+bundle: more_features
+label: title
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

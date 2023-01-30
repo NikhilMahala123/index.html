@@ -1,0 +1,38 @@
+uuid: 22b7dcbb-eedf-4287-add1-8f9141139762
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.faqs
+    - field.field.block_content.faqs.field_answer
+    - field.field.block_content.faqs.field_question
+id: block_content.faqs.default
+targetEntityType: block_content
+bundle: faqs
+mode: default
+content:
+  field_answer:
+    type: string_textfield
+    weight: 27
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_question:
+    type: string_textfield
+    weight: 26
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  info:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

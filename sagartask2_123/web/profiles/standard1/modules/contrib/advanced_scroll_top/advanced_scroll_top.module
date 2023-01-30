@@ -1,0 +1,10 @@
+<?php
+
+/**
+ * Implements hook_page_attachments().
+ */
+function advanced_scroll_top_page_attachments(&$page) {
+	if (!\Drupal::service('router.admin_context')->isAdminRoute()) {
+    $page['#attached']['library'][] = 'advanced_scroll_top/advanced_scroll_top';
+	}
+}

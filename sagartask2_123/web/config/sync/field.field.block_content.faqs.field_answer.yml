@@ -1,0 +1,19 @@
+uuid: 7b259b13-9ac3-4633-a03a-6e6f13d37c4d
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.faqs
+    - field.storage.block_content.field_answer
+id: block_content.faqs.field_answer
+field_name: field_answer
+entity_type: block_content
+bundle: faqs
+label: answer
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

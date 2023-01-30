@@ -1,0 +1,64 @@
+uuid: 369a55b0-8f04-4ff4-80e4-ce70b42a7c2f
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.about_us_down
+    - field.field.block_content.about_us_down.body
+    - field.field.block_content.about_us_down.field_aboudownicon
+    - field.field.block_content.about_us_down.field_about_us_image
+    - field.field.block_content.about_us_down.field_icon1
+    - field.field.block_content.about_us_down.field_icon_2
+  module:
+    - fontawesome
+    - image
+    - text
+id: block_content.about_us_down.default
+targetEntityType: block_content
+bundle: about_us_down
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_aboudownicon:
+    type: fontawesome_icon_formatter
+    label: above
+    settings:
+      layers: false
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_about_us_image:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_icon1:
+    type: fontawesome_icon_formatter
+    label: above
+    settings:
+      layers: false
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_icon_2:
+    type: fontawesome_icon_formatter
+    label: above
+    settings:
+      layers: false
+    third_party_settings: {  }
+    weight: 4
+    region: content
+hidden:
+  addtoany: true

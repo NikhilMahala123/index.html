@@ -1,0 +1,59 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.more_features.body
+    - field.field.node.more_features.field_icon_morefeature
+    - field.field.node.more_features.field_imagee
+    - field.field.node.more_features.field_titlee
+    - image.style.thumbnail
+    - node.type.more_features
+  module:
+    - fontawesome
+    - image
+    - text
+    - user
+id: node.more_features.teaser
+targetEntityType: node
+bundle: more_features
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_icon_morefeature:
+    type: fontawesome_icon_formatter
+    label: hidden
+    settings:
+      layers: false
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_imagee:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: thumbnail
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_titlee:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden:
+  addtoany: true
+  links: true

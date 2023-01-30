@@ -1,0 +1,33 @@
+add ball entity entities:
+  title: 'Create new Ball entity entities'
+
+administer ball entity entities:
+  title: 'Administer Ball entity entities'
+  description: 'Allow to access the administration form to configure Ball entity entities.'
+  restrict access: true
+
+delete ball entity entities:
+  title: 'Delete Ball entity entities'
+
+edit ball entity entities:
+  title: 'Edit Ball entity entities'
+
+view published ball entity entities:
+  title: 'View published Ball entity entities'
+
+view unpublished ball entity entities:
+  title: 'View unpublished Ball entity entities'
+
+view all ball entity revisions:
+  title: 'View all Ball entity revisions'
+
+revert all ball entity revisions:
+  title: 'Revert all Ball entity revisions'
+  description: 'Role requires permission <em>view Ball entity revisions</em> and <em>edit rights</em> for ball entity entities in question or <em>administer ball entity entities</em>.'
+
+delete all ball entity revisions:
+  title: 'Delete all revisions'
+  description: 'Role requires permission to <em>view Ball entity revisions</em> and <em>delete rights</em> for ball entity entities in question or <em>administer ball entity entities</em>.'
+
+permission_callbacks:
+  - \Drupal\ball\BallEntityPermissions::generatePermissions

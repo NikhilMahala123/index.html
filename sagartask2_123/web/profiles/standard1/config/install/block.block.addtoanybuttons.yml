@@ -1,0 +1,27 @@
+langcode: en
+status: false
+dependencies:
+  module:
+    - addtoany
+    - node
+  theme:
+    - my_theme
+id: addtoanybuttons
+theme: my_theme
+region: content_9_pricing
+weight: -12
+provider: null
+plugin: addtoany_block
+settings:
+  id: addtoany_block
+  label: 'AddToAny buttons'
+  label_display: visible
+  provider: addtoany
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      bio: bio

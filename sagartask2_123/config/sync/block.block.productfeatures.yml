@@ -1,0 +1,25 @@
+uuid: 2684ae15-ae5a-47b5-b6e8-6e9c22655d90
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:imgblock:a197aaa9-698c-4346-aef6-3ba8c85c7225'
+  module:
+    - block_content
+  theme:
+    - my_theme
+id: productfeatures
+theme: my_theme
+region: content_2_product
+weight: -18
+provider: null
+plugin: 'block_content:a197aaa9-698c-4346-aef6-3ba8c85c7225'
+settings:
+  id: 'block_content:a197aaa9-698c-4346-aef6-3ba8c85c7225'
+  label: productfeatures
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

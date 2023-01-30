@@ -1,0 +1,65 @@
+<?php
+
+/**
+ * @file
+ * Contains ball.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function ball_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the ball module.
+    case 'help.page.ball':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('my awesome module') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function ball_theme() {
+  $theme = [];
+  $theme['ball_entity'] = [
+    'render element' => 'elements',
+    'file' => 'ball_entity.page.inc',
+    'template' => 'ball_entity',
+  ];
+  $theme['ball_entity_content_add_list'] = [
+    'render element' => 'content',
+    'variables' => ['content' => NULL],
+    'file' => 'ball_entity.page.inc',
+  ];
+  
+  $theme['new'] = [
+    
+    'variables' => ['a' => '', 'b' => '', 'c' => '', 'e' => '', 'f' => '', 'g' => '','h' => '','link'=>'','uri'=>'', 'lengthofarr'=> '',],
+ 
+  ];
+
+  return $theme;
+}
+
+/**
+ * Implements hook_theme_suggestions_HOOK().
+ */
+function ball_theme_suggestions_ball_entity(array $variables) {
+  $suggestions = [];
+  $entity = $variables['elements']['#ball_entity'];
+  $sanitized_view_mode = strtr($variables['elements']['#view_mode'], '.', '_');
+
+  $suggestions[] = 'ball_entity__' . $sanitized_view_mode;
+  $suggestions[] = 'ball_entity__' . $entity->bundle();
+  $suggestions[] = 'ball_entity__' . $entity->bundle() . '__' . $sanitized_view_mode;
+  $suggestions[] = 'ball_entity__' . $entity->id();
+  $suggestions[] = 'ball_entity__' . $entity->id() . '__' . $sanitized_view_mode;
+  return $suggestions;
+}

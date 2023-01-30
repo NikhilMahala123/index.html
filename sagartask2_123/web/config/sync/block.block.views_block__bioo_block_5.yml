@@ -1,0 +1,24 @@
+uuid: b33bce93-67fa-40c3-b44e-55446d1b99af
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.bioo
+  module:
+    - views
+  theme:
+    - my_theme
+id: views_block__bioo_block_5
+theme: my_theme
+region: content_12_gallery
+weight: 0
+provider: null
+plugin: 'views_block:bioo-block_5'
+settings:
+  id: 'views_block:bioo-block_5'
+  label: ''
+  label_display: '0'
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility: {  }

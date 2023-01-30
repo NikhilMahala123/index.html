@@ -1,0 +1,7 @@
+advanced_scroll_top:
+  css:
+    theme:
+      css/scroll.css: {}
+  js:
+    js/jquery.scrollUp.js: {}
+    js/trigger.js: {}

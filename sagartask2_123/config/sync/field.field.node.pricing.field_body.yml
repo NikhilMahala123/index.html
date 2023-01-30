@@ -1,0 +1,23 @@
+uuid: c4b039fe-b363-4bac-8006-4690b6ef81c6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_body
+    - node.type.pricing
+  module:
+    - text
+id: node.pricing.field_body
+field_name: field_body
+entity_type: node
+bundle: pricing
+label: body
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+  required_summary: false
+field_type: text_with_summary

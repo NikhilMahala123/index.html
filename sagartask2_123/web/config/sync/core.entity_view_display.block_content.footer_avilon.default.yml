@@ -1,0 +1,42 @@
+uuid: 76771e0b-4617-4306-b735-8dfce172e914
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.footer_avilon
+    - field.field.block_content.footer_avilon.body
+    - field.field.block_content.footer_avilon.field_fb
+    - field.field.block_content.footer_avilon.field_titleee
+  module:
+    - fontawesome
+    - text
+id: block_content.footer_avilon.default
+targetEntityType: block_content
+bundle: footer_avilon
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_fb:
+    type: fontawesome_icon_formatter
+    label: hidden
+    settings:
+      layers: false
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_titleee:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  addtoany: true

@@ -1,0 +1,31 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.imgblock
+    - field.field.block_content.imgblock.field_image
+    - image.style.thumbnail
+  module:
+    - image
+id: block_content.imgblock.default
+targetEntityType: block_content
+bundle: imgblock
+mode: default
+content:
+  field_image:
+    type: image_image
+    weight: 27
+    region: content
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+  info:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

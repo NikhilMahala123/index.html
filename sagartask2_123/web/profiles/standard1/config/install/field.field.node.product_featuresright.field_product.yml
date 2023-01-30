@@ -1,0 +1,20 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_product
+    - node.type.product_featuresright
+  module:
+    - fontawesome
+id: node.product_featuresright.field_product
+field_name: field_product
+entity_type: node
+bundle: product_featuresright
+label: 'product icons'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: fontawesome_icon

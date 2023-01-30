@@ -1,0 +1,24 @@
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:imgblock:c90e9611-8b31-474d-8d1c-d53fe6f5650a'
+  module:
+    - block_content
+  theme:
+    - my_theme
+id: imagesblock
+theme: my_theme
+region: content_8_blockmenu
+weight: -11
+provider: null
+plugin: 'block_content:c90e9611-8b31-474d-8d1c-d53fe6f5650a'
+settings:
+  id: 'block_content:c90e9611-8b31-474d-8d1c-d53fe6f5650a'
+  label: imagesblock
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

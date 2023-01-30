@@ -1,0 +1,31 @@
+uuid: 3be930c9-9674-4262-8eeb-5dc920b1de21
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.faqs
+    - field.field.block_content.faqs.field_answer
+    - field.field.block_content.faqs.field_question
+id: block_content.faqs.default
+targetEntityType: block_content
+bundle: faqs
+mode: default
+content:
+  field_answer:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_question:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  addtoany: true

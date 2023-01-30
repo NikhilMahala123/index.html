@@ -1,0 +1,24 @@
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:about_us_down:3a5da496-ce6f-46fd-913e-f87cdaa7e85f'
+  module:
+    - block_content
+  theme:
+    - my_theme
+id: duisaute2
+theme: my_theme
+region: content_3_duis
+weight: -16
+provider: null
+plugin: 'block_content:3a5da496-ce6f-46fd-913e-f87cdaa7e85f'
+settings:
+  id: 'block_content:3a5da496-ce6f-46fd-913e-f87cdaa7e85f'
+  label: 'duis aute 2'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

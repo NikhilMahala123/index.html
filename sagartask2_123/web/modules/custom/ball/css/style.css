@@ -1,0 +1,45 @@
+
+
+.top {
+    text-align: center;
+padding-left: 16%;
+padding-right: 18%;
+}
+
+.top h1 {
+    font-size: xxx-large;
+    margin-left: -3%;
+}
+
+.top h2 {
+    margin: 30px 0;
+    font-size: 1.49em;
+    font-weight: unset;
+  }
+
+
+.down h3 {
+    margin-left: 25%;
+}
+.down h4 {
+    margin-left: 22%;
+}
+
+.down img {
+    margin-left: -4%;
+    overflow: hidden;
+}
+.link {
+    
+    margin-left: 31%;
+    font-size: larger;
+    
+}
+
+.image {
+    overflow: hidden;
+}
+
+.down img:hover {
+    transform: scale(1.2);
+}

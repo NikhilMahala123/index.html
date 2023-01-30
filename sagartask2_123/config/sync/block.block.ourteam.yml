@@ -1,0 +1,25 @@
+uuid: 677e162a-bf40-416a-9c84-27059d47ca85
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:94e59e48-15a9-4834-ac94-f2379375d8b1'
+  module:
+    - block_content
+  theme:
+    - my_theme
+id: ourteam
+theme: my_theme
+region: content_11_ourteam
+weight: -15
+provider: null
+plugin: 'block_content:94e59e48-15a9-4834-ac94-f2379375d8b1'
+settings:
+  id: 'block_content:94e59e48-15a9-4834-ac94-f2379375d8b1'
+  label: 'Our Team'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

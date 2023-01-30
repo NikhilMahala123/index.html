@@ -1,0 +1,25 @@
+uuid: 56acfe22-740b-40dd-81bf-d5c34b54cfd9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_twiter
+    - node.type.bio
+  module:
+    - fontawesome
+id: node.bio.field_twiter
+field_name: field_twiter
+entity_type: node
+bundle: bio
+label: twiter
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    icon_name: twitter
+    settings: 'a:3:{s:7:"duotone";a:3:{s:12:"swap-opacity";i:0;s:7:"opacity";a:2:{s:7:"primary";s:0:"";s:9:"secondary";s:0:"";}s:5:"color";a:2:{s:7:"primary";s:7:"#000000";s:9:"secondary";s:7:"#000000";}}s:7:"masking";a:2:{s:4:"mask";s:0:"";s:5:"style";s:3:"fab";}s:16:"power_transforms";a:3:{s:5:"scale";a:2:{s:4:"type";s:0:"";s:5:"value";s:0:"";}s:10:"position_y";a:2:{s:4:"type";s:0:"";s:5:"value";s:0:"";}s:10:"position_x";a:2:{s:4:"type";s:0:"";s:5:"value";s:0:"";}}}'
+    style: fab
+default_value_callback: ''
+settings: {  }
+field_type: fontawesome_icon

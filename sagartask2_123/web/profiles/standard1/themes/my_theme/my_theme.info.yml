@@ -1,0 +1,29 @@
+name: My Great Theme
+type: theme
+description: This is my  theme project task 2
+core_version_requirement: ^8||^9
+base theme: stable9
+screenshot: logo.png
+
+regions:
+  header: Header
+  hero: Hero-Banner
+  page_top: 'Page top'
+  content: Content
+  content_1_lorem: Content_1_lorem
+  content_2_product: Content_2_product
+  content_3_duis: Content_3_duis
+  content_4_duis: Content_4_duis
+  content_5_duis: Content_5_duis
+  content_6_callaction: Content_6_callaction
+  content_7_more: Content_7_more
+  content_8_blockmenu: Content_8_blockmenu
+  content_9_pricing: Content_9_pricing
+  content_10_faq: Content_10_faq
+  content_11_ourteam: Content_11_ourteam
+  content_12_gallery: Content_12_gallery
+  footer_first: 'Footer first'
+  footer_second: 'Footer second'
+ 
+libraries: 
+  - my_theme/global-css

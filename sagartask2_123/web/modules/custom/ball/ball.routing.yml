@@ -1,0 +1,7 @@
+ball.simple_form:
+  path: '/admin/{id}'
+  defaults:
+    _controller:  'Drupal\ball\Controller\BallController::content'
+    _title: 'Just a simple form'
+  requirements:
+    _permission: 'access content'

@@ -1,0 +1,33 @@
+uuid: 92117b16-bca1-4549-8ba4-8b00de8436eb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.product_features.body
+    - field.field.node.product_features.field_title
+    - node.type.product_features
+  module:
+    - text
+    - user
+id: node.product_features.default
+targetEntityType: node
+bundle: product_features
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_title:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  links: true

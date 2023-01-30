@@ -1,0 +1,21 @@
+uuid: 531188d0-3d8a-4dee-b018-e92257cadfcb
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.about_us_down
+    - field.storage.block_content.field_aboudownicon
+  module:
+    - fontawesome
+id: block_content.about_us_down.field_aboudownicon
+field_name: field_aboudownicon
+entity_type: block_content
+bundle: about_us_down
+label: aboudownicon
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: fontawesome_icon

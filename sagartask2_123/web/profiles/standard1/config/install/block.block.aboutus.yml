@@ -1,0 +1,24 @@
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:basic:dfc47ac1-9af5-4502-93b4-f2496d3ce3f3'
+  module:
+    - block_content
+  theme:
+    - my_theme
+id: aboutus
+theme: my_theme
+region: hero
+weight: 0
+provider: null
+plugin: 'block_content:dfc47ac1-9af5-4502-93b4-f2496d3ce3f3'
+settings:
+  id: 'block_content:dfc47ac1-9af5-4502-93b4-f2496d3ce3f3'
+  label: 'About Us '
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

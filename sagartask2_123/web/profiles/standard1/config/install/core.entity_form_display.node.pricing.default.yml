@@ -1,0 +1,131 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.pricing.field_body
+    - field.field.node.pricing.field_font1
+    - field.field.node.pricing.field_font2
+    - field.field.node.pricing.field_font3
+    - field.field.node.pricing.field_font4
+    - field.field.node.pricing.field_font5
+    - field.field.node.pricing.field_get_started_link
+    - field.field.node.pricing.field_name
+    - node.type.pricing
+  module:
+    - fontawesome
+    - link
+    - path
+    - text
+id: node.pricing.default
+targetEntityType: node
+bundle: pricing
+mode: default
+content:
+  created:
+    type: datetime_timestamp
+    weight: 10
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_body:
+    type: text_textarea_with_summary
+    weight: 123
+    region: content
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+      show_summary: false
+    third_party_settings: {  }
+  field_font1:
+    type: fontawesome_icon_widget
+    weight: 125
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_font2:
+    type: fontawesome_icon_widget
+    weight: 126
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_font3:
+    type: fontawesome_icon_widget
+    weight: 127
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_font4:
+    type: fontawesome_icon_widget
+    weight: 128
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_font5:
+    type: fontawesome_icon_widget
+    weight: 129
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_get_started_link:
+    type: link_default
+    weight: 124
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+  field_name:
+    type: string_textfield
+    weight: 122
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 30
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  promote:
+    type: boolean_checkbox
+    weight: 15
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    weight: 120
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  sticky:
+    type: boolean_checkbox
+    weight: 16
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  uid:
+    type: entity_reference_autocomplete
+    weight: 5
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

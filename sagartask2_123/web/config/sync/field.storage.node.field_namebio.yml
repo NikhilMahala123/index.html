@@ -1,0 +1,21 @@
+uuid: bf6406ca-ab82-4f09-b89e-5aaefd1b90a0
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_namebio
+field_name: field_namebio
+entity_type: node
+type: string
+settings:
+  max_length: 255
+  case_sensitive: false
+  is_ascii: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

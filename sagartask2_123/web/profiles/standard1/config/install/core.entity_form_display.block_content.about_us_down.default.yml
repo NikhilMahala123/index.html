@@ -1,0 +1,65 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.about_us_down
+    - field.field.block_content.about_us_down.body
+    - field.field.block_content.about_us_down.field_aboudownicon
+    - field.field.block_content.about_us_down.field_about_us_image
+    - field.field.block_content.about_us_down.field_icon1
+    - field.field.block_content.about_us_down.field_icon_2
+    - image.style.thumbnail
+  module:
+    - fontawesome
+    - image
+    - text
+id: block_content.about_us_down.default
+targetEntityType: block_content
+bundle: about_us_down
+mode: default
+content:
+  body:
+    type: text_textarea_with_summary
+    weight: 26
+    region: content
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+      show_summary: false
+    third_party_settings: {  }
+  field_aboudownicon:
+    type: fontawesome_icon_widget
+    weight: 28
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_about_us_image:
+    type: image_image
+    weight: 27
+    region: content
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+  field_icon1:
+    type: fontawesome_icon_widget
+    weight: 29
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_icon_2:
+    type: fontawesome_icon_widget
+    weight: 30
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  info:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

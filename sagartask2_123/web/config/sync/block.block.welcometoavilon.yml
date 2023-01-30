@@ -1,0 +1,25 @@
+uuid: 87b414b1-680d-4800-b44c-5a06387af5e3
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:header_block:704dbe9a-9cb1-4a92-8996-918e13bdb509'
+  module:
+    - block_content
+  theme:
+    - my_theme
+id: welcometoavilon
+theme: my_theme
+region: header
+weight: -2
+provider: null
+plugin: 'block_content:704dbe9a-9cb1-4a92-8996-918e13bdb509'
+settings:
+  id: 'block_content:704dbe9a-9cb1-4a92-8996-918e13bdb509'
+  label: 'Welcome to Avilon'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

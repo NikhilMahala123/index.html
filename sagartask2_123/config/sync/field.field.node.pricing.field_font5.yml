@@ -1,0 +1,21 @@
+uuid: a9c4b93a-f391-4612-9263-cf45d07a96b2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_font5
+    - node.type.pricing
+  module:
+    - fontawesome
+id: node.pricing.field_font5
+field_name: field_font5
+entity_type: node
+bundle: pricing
+label: font5
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: fontawesome_icon

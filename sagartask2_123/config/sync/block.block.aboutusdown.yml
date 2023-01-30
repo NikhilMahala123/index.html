@@ -1,0 +1,25 @@
+uuid: b16838e6-8f41-4444-93c3-a787cd81a709
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:about_us_down:bb4105ed-cc4f-4977-baa8-7df074cfffc8'
+  module:
+    - block_content
+  theme:
+    - my_theme
+id: aboutusdown
+theme: my_theme
+region: content_1_lorem
+weight: 0
+provider: null
+plugin: 'block_content:bb4105ed-cc4f-4977-baa8-7df074cfffc8'
+settings:
+  id: 'block_content:bb4105ed-cc4f-4977-baa8-7df074cfffc8'
+  label: 'About us down'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

@@ -1,0 +1,25 @@
+uuid: aeca5ec4-f929-4a46-a718-65648d444443
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:faqs:0838f5e0-0c0a-4241-aea6-4bbd31905709'
+  module:
+    - block_content
+  theme:
+    - my_theme
+id: faqs_block3
+theme: my_theme
+region: content_10_faq
+weight: 0
+provider: null
+plugin: 'block_content:0838f5e0-0c0a-4241-aea6-4bbd31905709'
+settings:
+  id: 'block_content:0838f5e0-0c0a-4241-aea6-4bbd31905709'
+  label: faqs_block3
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

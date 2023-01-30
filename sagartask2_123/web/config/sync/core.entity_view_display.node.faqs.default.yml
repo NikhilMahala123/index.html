@@ -1,0 +1,31 @@
+uuid: ac4caf8b-8325-4174-9610-b141a5404f8b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.faqs.field_faqs
+    - node.type.faqs
+  module:
+    - entity_reference_revisions
+    - user
+id: node.faqs.default
+targetEntityType: node
+bundle: faqs
+mode: default
+content:
+  field_faqs:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  addtoany: true

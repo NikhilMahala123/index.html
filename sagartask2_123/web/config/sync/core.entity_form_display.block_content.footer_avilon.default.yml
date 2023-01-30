@@ -1,0 +1,50 @@
+uuid: 91b4fb43-769e-4c7a-a8f2-a7b552fa8a1a
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.footer_avilon
+    - field.field.block_content.footer_avilon.body
+    - field.field.block_content.footer_avilon.field_fb
+    - field.field.block_content.footer_avilon.field_titleee
+  module:
+    - fontawesome
+    - text
+id: block_content.footer_avilon.default
+targetEntityType: block_content
+bundle: footer_avilon
+mode: default
+content:
+  body:
+    type: text_textarea_with_summary
+    weight: 26
+    region: content
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+      show_summary: false
+    third_party_settings: {  }
+  field_fb:
+    type: fontawesome_icon_widget
+    weight: 28
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_titleee:
+    type: string_textfield
+    weight: 27
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  info:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

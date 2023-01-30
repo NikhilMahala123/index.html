@@ -1,0 +1,23 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.productfeaturesview
+  module:
+    - views
+  theme:
+    - my_theme
+id: views_block__productfeaturesview_block_8
+theme: my_theme
+region: content_2_product
+weight: -17
+provider: null
+plugin: 'views_block:productfeaturesview-block_8'
+settings:
+  id: 'views_block:productfeaturesview-block_8'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility: {  }

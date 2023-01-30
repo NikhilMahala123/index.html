@@ -1,0 +1,83 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.bio.field_bioimage
+    - field.field.node.bio.field_designation
+    - field.field.node.bio.field_fb
+    - field.field.node.bio.field_insta
+    - field.field.node.bio.field_linkdin
+    - field.field.node.bio.field_namebio
+    - field.field.node.bio.field_twiter
+    - node.type.bio
+  module:
+    - fontawesome
+    - image
+    - user
+id: node.bio.default
+targetEntityType: node
+bundle: bio
+mode: default
+content:
+  field_bioimage:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_designation:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_fb:
+    type: fontawesome_icon_formatter
+    label: hidden
+    settings:
+      layers: false
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_insta:
+    type: fontawesome_icon_formatter
+    label: hidden
+    settings:
+      layers: false
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  field_linkdin:
+    type: fontawesome_icon_formatter
+    label: hidden
+    settings:
+      layers: false
+    third_party_settings: {  }
+    weight: 5
+    region: content
+  field_namebio:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 6
+    region: content
+  field_twiter:
+    type: fontawesome_icon_formatter
+    label: hidden
+    settings:
+      layers: false
+    third_party_settings: {  }
+    weight: 3
+    region: content
+hidden:
+  addtoany: true
+  links: true

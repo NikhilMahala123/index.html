@@ -1,0 +1,24 @@
+uuid: 88c85b8e-d1dd-43e9-afed-282e85ed2b6a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.more_features.body
+    - field.field.node.more_features.field_icon_morefeature
+    - field.field.node.more_features.field_imagee
+    - field.field.node.more_features.field_titlee
+    - node.type.more_features
+  module:
+    - user
+id: node.more_features.default
+targetEntityType: node
+bundle: more_features
+mode: default
+content: {  }
+hidden:
+  addtoany: true
+  body: true
+  field_icon_morefeature: true
+  field_imagee: true
+  field_titlee: true
+  links: true

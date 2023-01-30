@@ -1,0 +1,14 @@
+langcode: en
+status: true
+dependencies: {  }
+name: gallery_8
+label: 'gallery 8'
+effects:
+  6c101f53-998f-48ff-9e92-cfebc374f997:
+    uuid: 6c101f53-998f-48ff-9e92-cfebc374f997
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 580
+      height: 450
+      anchor: center-center

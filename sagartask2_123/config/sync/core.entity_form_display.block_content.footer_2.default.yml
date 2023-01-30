@@ -1,0 +1,72 @@
+uuid: 286d18f6-c3bc-4677-8f49-8bc85dd4bb2a
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.footer_2
+    - field.field.block_content.footer_2.field_email
+    - field.field.block_content.footer_2.field_mail
+    - field.field.block_content.footer_2.field_phone
+    - field.field.block_content.footer_2.field_phone_icon
+    - field.field.block_content.footer_2.field_position
+    - field.field.block_content.footer_2.field_position_text
+    - field.field.block_content.footer_2.field_titlefooter2
+  module:
+    - fontawesome
+    - telephone
+id: block_content.footer_2.default
+targetEntityType: block_content
+bundle: footer_2
+mode: default
+content:
+  field_email:
+    type: email_default
+    weight: 2
+    region: content
+    settings:
+      placeholder: ''
+      size: 60
+    third_party_settings: {  }
+  field_mail:
+    type: fontawesome_icon_widget
+    weight: 3
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_phone:
+    type: telephone_default
+    weight: 4
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_phone_icon:
+    type: fontawesome_icon_widget
+    weight: 5
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_position:
+    type: fontawesome_icon_widget
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_position_text:
+    type: string_textfield
+    weight: 1
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_titlefooter2:
+    type: string_textfield
+    weight: 26
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  info: true

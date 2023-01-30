@@ -1,0 +1,94 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.pricing.field_body
+    - field.field.node.pricing.field_font1
+    - field.field.node.pricing.field_font2
+    - field.field.node.pricing.field_font3
+    - field.field.node.pricing.field_font4
+    - field.field.node.pricing.field_font5
+    - field.field.node.pricing.field_get_started_link
+    - field.field.node.pricing.field_name
+    - node.type.pricing
+  module:
+    - fontawesome
+    - link
+    - text
+    - user
+id: node.pricing.teaser
+targetEntityType: node
+bundle: pricing
+mode: teaser
+content:
+  field_body:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_font1:
+    type: fontawesome_icon_formatter
+    label: above
+    settings:
+      layers: false
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_font2:
+    type: fontawesome_icon_formatter
+    label: above
+    settings:
+      layers: false
+    third_party_settings: {  }
+    weight: 7
+    region: content
+  field_font3:
+    type: fontawesome_icon_formatter
+    label: above
+    settings:
+      layers: false
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  field_font4:
+    type: fontawesome_icon_formatter
+    label: above
+    settings:
+      layers: false
+    third_party_settings: {  }
+    weight: 5
+    region: content
+  field_font5:
+    type: fontawesome_icon_formatter
+    label: above
+    settings:
+      layers: false
+    third_party_settings: {  }
+    weight: 6
+    region: content
+  field_get_started_link:
+    type: link
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_name:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  addtoany: true
+  links: true
